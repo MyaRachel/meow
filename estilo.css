@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&family=Righteous&family=Rosarivo&display=swap');
+*{margin:0; padding:0;}
+
+body{background-color:#322F2F;} 
+
+header , img { width:100%;height:380px;
+
+}
+
+
+
+nav{ text-align:center; 
+     background-color: #322F2F;
+     padding:10px;
+     border:7px solid white;
+     
+
+}
+
+a{ color: white;
+   font:  1.4rem 'Righteous', cursive;
+   text-decoration: none ; 
+  
+}
+
+
+.amenu:link, .amenu:visited{ color:white;
+
+}
+
+.amenu:hover, .amenu:active{ color:gray;
+
+}
+
+.amenu{ margin-right:100px;
+        font-weight:bold;
+}
+
+
+article{ 
+   width:100%; 
+   background-color: #322F2F;
+   padding:20px;
+   box-sizing: border-box;
+
+
+}
+
+h1   {font: 3rem 'Rhodium Libre', serif;
+      color:#F28D4D;
+      text-align:center; 
+      margin-bottom:30px ;
+  }
+
+p     {font: 1.4rem 'Righteous', cursive;
+       color:#D6D4D1; 
+       text-align:justify ;
+       line-height:30px;
+}
+
+h2     {font: 2.2rem 'Rosarivo', serif;
+        color:#F28D4D; 
+        text-align:center; 
+        margin-bottom:20px;           }
+
+#lau   { color:#F28D4D;}
+
+#lista { background-color:#322F2F;
+         padding:20px;
+         border: 5px solid white;
+
+}
+
+ul{padding:20px 30px;}
+
+li{color:#D6D4D1;
+   font: 1.4rem 'Righteous', cursive;
+   }
+
+#lista h2{}
+
+#lista p{color: #FDBD83;
+         margin-top:20px;
+ }
+
+.asimg { width: 100%;
+         height: 300px; }
+
+section{ padding:20px;}
+
+
+#container{ display:flex;
+            margin-top:15px;
+            margin-bottom:20px;}
+
+
+.card{ background-color:#1f1e1e;
+       margin:10px;
+       border-radius:8px;
+       box-shadow:0 5px 8px black ;
+       transition:0,5s;
+       
+} 
+
+.card:hover{box-shadow:0 10px 16px black ;
+          } 
+
+.cardtxt:{padding:10px;  } 
+
+.cardtxt p { font: 1.1rem 'Righteous', cursive;
+             color:#D6D4D1;
+             line-height:20px; } 
+
+h3{ font: 1.5rem 'Rhodium Libre', serif;
+    color:#F28D4D;
+    text-align:center;
+    margin-bottom:10px;
+
+
+   }
+
+#h3p p{ padding:10px;
+        text-align:center;
+        }
+
+
+#fim{
+
+
+}  
+
+#fim p{text-align:center;
+      margin-bottom:10px;
+
+
+}
+
+
+#containerfinal{ display:flex;
+
+
+}      
+
+.containerimgfim{margin-top:40px;
+   display:flex;    justify-content:center;
+   align-items:center;
+}
+
+.containerimgfim p { color:#000;
+
+}
+
+
+
+.imgfinal{ width:30px; height:30px;
+   padding:10px;
+
+}
+
+.textofinal{ padding:40px;
+
+}
+
+video{ width:600px; }
+
+footer{ background-color:black;
+        padding:10px; 
+        
+  }
+
+footer p{text-align:center;
+   color:#D6D4D1;
+
+}
+
+footer a{color:white;
+
+}
+
+footer a:hover{color:pink;
+
+}
+
+
+/*FORMULARIO*/
+
+#form{
+
+
+}
+
+#form h2{ color:#FDBD83; 
+          margin-bottom:30px;
+          }
+
+form{width:400px;
+     margin:0 auto;
+     
+}
+
+input, select, textarea {width:100%;
+      height:30px;
+      margin-bottom:10px;
+      padding-left:5px;
+      box-sizing: border-box;
+      border:1px solid #black;
+      }
+
+
+label, fieldset, input, select , textarea
+{ font: 1.4rem 'Righteous', cursive;
+  
+
+}
+
+fieldset{  border:1px solid #gray;
+           margin-bottom:10px;
+           padding:10px;
+
+
+}
+
+#dataidade{display:flex;
+
+}
+
+input[type="radio"]{ width:15px; height:15px;}
+
+textarea{height:80px;}
+
+#botao{display:flex;}
+
+input[type="submit"], input[type="reset"]{
+   margin:20px;   
+   background-color:green;
+   color:white;
+   border:0;
+   border-radius:5px;
+}
+
+
+input[type="reset"]{ background-color:red; }

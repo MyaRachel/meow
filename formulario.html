@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+	<meta charset="utf-8">
+	<meta name="author" content="Rachel Gomes">
+	<meta name="keywords" content="formulario Meowth E-sports">
+	<meta name="description" content="formulario para entrar no time Meowth E-Sports">
+	<title>Formulário Meowth</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+
+<body>
+
+	<header>
+	  <img src="img/Meowth E-sports.png" alt="banner com a logo do time do lado esquerdo, uma faixa escrito a maior equipe amadora de esports , embaixo 3 vezes campeã da empoliga e mais embaixo o ícone dos jogos e patrocinadores."/>
+  </header>
+
+	<nav>
+		<a class="amenu" href="meowth.html"> HOME         </a>
+		<a class="amenu" href="meowth.html#00">SOBRE      </a>
+		<a class="amenu" href="meowth.html#11">INFOS      </a>
+		<a class="amenu" href="#">FAÇA PARTE              </a>
+		<a class="amenu" href="meowth.html#33">MEOWTH     </a>
+	</nav>
+   
+    
+    <section id="form">
+    	<h1>Formulário</h1> 
+ 
+    		<h2>Preencha o formulário e entraremos em contato.</h2> 
+    		
+    		<form name="" method="" action="">
+    			<label for="1nome">Nome:</label>
+    			<input id="1nome" type="text" name="Nome" placeholder="Nome completo" required >
+
+      <div id="dataidade">
+        <div>
+    			<label id="data">Data de nascimento</label>
+    			<input type="date" name="data" >
+    		</div>
+
+        <div>
+    			<label id="idd">Idade</label>
+    			<input type="number" name="idd" min="15" max="30" step="1" required>
+    		</div>
+    	</div>	
+
+    			<label for="nick">Nickname</label>
+    			<input id="nick" type="text" name="nick" placeholder="Seu nome no LoL">
+
+    			<label for="elo">Elo/Peak Elo</label>
+    			<input id="elo" type="text" name="elo" placeholder="Seu elo atual e seu maior elo" required>
+
+    			<label for="carg">Cargo</label>
+    			<select id="carg" name="cargo">
+    				<option>Selecione</option>
+    				<option value="player">Player</option>
+    				<option value="coach">Coach</option>
+    				<option value="staff">Staff</option>
+    				<option value="streamer">Streamer</option>
+    			</select>
+
+    			<fieldset>
+    				<legend>Possui experiência?</legend>
+           <input id="sim" type="radio" name="xp" value="sim">   <label for="sim">Sim</label>
+    			 <input id="nao" type="radio" name="xp" value="nao">   <label for="nao">Não</label>
+    			</fieldset>
+ 
+
+    			<label for="email">Email</label>
+    			<input id="email" type="email" name="Email" placeholder="euamogatos@email.com"><br/>
+
+    			<label for="wpp">WhatsApp</label>
+    			<input id="wpp" type="tel" name="wpp" placeholder="(99)99999-9999" required pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+    			<label for="pq">Por que você quer entrar na Meowth E-sports?</label>
+    			<textarea id="pq" cols="52" rows="5">
+    				
+    			</textarea>
+
+
+        <div id="botao">
+    	    <input type="submit" name="botao-enviar" value="Enviar" />
+    	  	<input type="reset" name="botao-limpar" value="Cancelar"> 
+    	  </div>	
+    			
+
+
+
+
+    		</form>
+
+    	</section>
+
+
+   <footer>
+       <p>Desenvolvido por <a href="https://www.instagram.com/mya__rachel/" target="blank">Rachel Gomes</a> - 2021 </p>
+   </footer>
+
+</body>
+</html>
